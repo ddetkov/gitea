@@ -1,0 +1,8 @@
+# © Dmitry Detkov 2024
+# Изделие №4 Detkov Pro.
+# File: compose.yml
+
+services:
+
+  gitea:
+    container_name: gitea

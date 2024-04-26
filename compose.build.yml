@@ -1,0 +1,12 @@
+# © Dmitry Detkov 2024
+# Изделие №4 Detkov Pro.
+# File: compose.build.yml
+
+services:
+
+  gitea:
+    image: detkovpro/gitea
+    build:
+      context: .
+      args:
+        gitea_tag: ${gitea_tag:-1.20.5}
