@@ -1,7 +1,7 @@
 #!/usr/bin/env make
 
 # © Dmitry Detkov 2024
-# Изделие №4 Detkov Pro.
+# Изделие №4 Detkov Pro. - gitea
 # File: makefile
 
 .PHONY: *
